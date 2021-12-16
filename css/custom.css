@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{background: #337ab7;}
+a {color: #E51837;}
+hr{    border-top: 1px solid #DCDBDB;}
+.h2, h2{
+	border-bottom: 4px solid #333;
+	font-size: 25px;
+    font-weight: 600;
+	}
+
+.page-header {
+	position:relative;
+    padding: 9px;
+    margin: 0px;
+	border : none;
+	}
+
+.container{ background:#fff;}	
+.nav-tabs{border : none;}
+.steps{ 
+list-style:none;
+padding-left: 5px;
+}
+.steps li{
+	padding: 5px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #E51837;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.13);
+	
+	}
+.date-time{  
+    padding: 10px;
+    background: #000;
+    color: #fff;}
+.welcome-guest{
+	padding: 10px;
+    background: #E51837;
+    color: #fff;}
+
+.logo-text{   
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #B74242;
+    font-size: 40px;
+    margin: 0;
+    text-shadow: 1px 2px #fff;}
+	
+.nav>li>a {
+    margin-right: 0px;
+    font-size: 20px;
+    padding: 5px 15px;
+	text-transform: uppercase;
+	font-weight:600;
+}
+
+.nav>li>a:after{
+	    content: "|";
+    right: -2px;
+    font-size: 15px;
+    font-weight: 600;
+    top: 7px;
+    position: absolute;
+    color: #000;
+	}
+	
+	.ticket-tabs>li>a:after{display:none;}
+	#ticket-table td{ width:50%;    padding: 2px;}
+.nav-tabs>li>a:hover {
+    border-color: transparent;
+	    text-decoration: underline;
+    background-color: transparent;
+}
+
+
+.sign-nav {
+	position: absolute;
+    right: 0;
+    top: 15px;
+	font-size: 0;
+	}
+.sign-nav li{ display:inline-block; font-size:14px;}
+.sign-nav li a{
+	margin-right: 20px;
+    padding: 5px 0px;
+    text-decoration: underline;
+	}
+	
+.contact {
+	background: rgba(248, 248, 248, 0.86);
+    width: 90%;
+    padding: 124px 60px;
+    margin-top: 39px;
+    text-align: center;
+}
+.contact p span {
+	color: #2c2c2c;
+	display: block;
+	font-size: 30px;
+	line-height: 36px;
+	padding: 18px 0;
+}
+
+
+.faq {
+			counter-reset: my-badass-counter;
+			background: rgba(248, 248, 248, 0.86);
+            padding: 10px;
+		}
+		.faq dt {
+			position: relative;
+			font: bold 16px Georgia;
+			padding: 4px 0 10px 0;
+		}
+		.faq dt:before {
+			content: counter(my-badass-counter);
+			counter-increment: my-badass-counter;
+			position: absolute;
+			left: 0;
+			top: 0;
+			font: bold 50px/1 Sans-Serif;
+		}
+		.faq dd {
+			margin: 0 0 50px 0;
+		}	
+		.faq dt, .faq dd {
+			padding-left: 50px;
+		}
+
+.table thead{  background: #008FBB;
+    color: #fff;}
+	
+.table-striped>tbody>tr:nth-of-type(even){ background:#E4E1E1;}
+	
+ 
+	 
+.footer{background:transparent;}
+.text-muted{    
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #111;
+    text-align: center;}
